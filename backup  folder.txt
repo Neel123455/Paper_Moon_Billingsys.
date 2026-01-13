@@ -1,0 +1,15 @@
+
+1.login
+  create table login
+  (uname varchar (20),
+  password varchar(20));
+
+2.bill info
+  create table bill_info
+  (customer_id int(10) primary key,
+  items varchar(20),
+  price int(10),
+  quntity int(4),
+  username varchar(200),
+  total int(100));
+
